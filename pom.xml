@@ -22,24 +22,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
-            <version>2.3.2.RELEASE</version>
-        </dependency>
-
-        <!-- 使用@ConfigurationProperties时需要用此包生成configuration metadata（即spring-configuration-metadata.json）文件 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <version>2.3.2.RELEASE</version>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.73</version>
-            <optional>true</optional>
+            <groupId>cn.nuaon</groupId>
+            <artifactId>nuaon-spring-boot-autoconfigure</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 </project>
